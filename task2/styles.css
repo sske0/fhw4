@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.parent {
+    height: 300px;
+    width: 700px;
+    position: relative;
+    border: 2px dashed black;
+}
+
+.child {
+    width: 170px;
+    height: 70px;
+    position: absolute;
+}
+
+.child-1 {
+    background-color: red;
+}
+
+.child-2 {
+    right: 0;
+    background-color: rgb(255, 166, 0);
+}
+
+.child-3 {
+    bottom: 0;
+    background-color: rgb(229, 255, 0);
+}
+
+.child-4 {
+    bottom: 0;
+    right: 0;
+    background-color: rgb(30, 255, 0);
+}
+
+.child-5 {
+    top: 38%;
+    left: 38%;
+    background-color: rgb(0, 238, 255);
+}
